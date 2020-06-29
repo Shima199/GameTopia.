@@ -41,10 +41,9 @@ In Project Part 3, we are going to incorporate JavaScript in our code to augment
  
  | NAME  | CONTRIBUTIONS|   Future Enhancement |
 | ------------- | ------------- | ------------- |
-| Hamza Abdulghani |  ●	Page: Gaming Platforms ●	Web elements: Navigation buttons for the 3 consoles.   |●	Elaborate more about the new Generation consoles. 
-●	Add more media. |
-| Shima Haidar |  ●	Page: Homepage ●	Make the navigation menu in the Homepage  |●	add a Javascript for the dropdown list on the Homepage.|
-|  Kawthar Saleh | ●	Page: Best of the best 2010s ●	Web elements: overlay images and embedding a video from youtube. | ●	adding new ideas like the best games in another timeline ●	and more features using javascript. | 
+| Hamza Abdulghani |  ●	Page: Gaming Platforms  ●	Web elements: Navigation buttons for the 3 consoles.   |●	Elaborate more about the new Generation consoles.  ●	Add more media. |
+| Shima Haidar |  ●	Page: Homepage  ●	Make the navigation menu in the Homepage  |●	add a Javascript for the dropdown list on the Homepage.|
+|  Kawthar Saleh | ●	Page: Best of the best 2010s  ●	Web elements: overlay images and embedding a video from youtube. | ●	adding new ideas like the best games in another timeline ●	and more features using javascript. | 
 |   Kusai Alameer |  ●	Page: Game development ●	Page: Game development |  ●	Adding more navigation options to the page, and perhaps link to the other webpages  |
 |   Fawzanah Raheem |  ●	Page: Main Genres of Gaming |  ●	Elaborate on the main subgenres mentioned under each genre of games  |
 

@@ -43,14 +43,14 @@ body {
 
  #six{
   width: 450px;
-  top: 210%;
+  top: 190%;
   left: 850px;
   position: absolute;
   z-index: 10;
 }
 
  #seven{
-  top: 200%;
+  top: 180%;
   width: 400px;
   left: 600px;
   position: absolute;
@@ -59,7 +59,7 @@ body {
 
  #eight{
   width: 400px;
-  top: 224%;
+  top: 200%;
   left: 640px;
   position: absolute;
   z-index: 10;
@@ -91,7 +91,7 @@ body {
 
 #fifteen{
   width: 400px;
-  top: 580%;
+  top: 585%;
   left: 870px;
   position: absolute;
   z-index: 10;
@@ -100,7 +100,7 @@ body {
 
 #sixteen{
   width: 400px;
-  top: 583%;
+  top: 580%;
   left: 690px;
   position: absolute;
   z-index: 10;

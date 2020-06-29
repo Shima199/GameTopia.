@@ -1,0 +1,380 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 2rem;
+  width: 100%;
+  min-width: 1000px;
+  margin: 0 auto;
+}
+
+.sand {
+  background-color: black;
+}
+
+
+.paleyel {
+  background-color: #2fae77;
+}
+.header {
+  position: relative;
+}
+.header img{
+
+}
+#mainTitle{
+  margin-top: 10%;
+  text-transform: capitalize;
+  padding-left: 20px;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  text-align: center;
+  width: 400px;
+	height: 68px;
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+
+}
+
+#fimage{
+  margin-top: 6%;
+}
+#genres{
+  margin-top: 2%;
+
+}
+
+#pageTitle{
+  font-size:3rem;
+  margin-top: 6%;
+  color: white;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#titlehr{
+  margin-top: 1px;
+  top: 90%;
+  width: 100%;
+}
+.text-block {
+
+  margin-top: 10%;
+  opacity: 1;
+  width: 630px;
+	height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2fae77;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+p{
+  /* font-family: 'Press Start 2P', cursive; */
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  text-align: justify;
+  font-size: 1.6rem;
+  /* line-height: 2.5rem; */
+}
+
+.mainSubtitle {
+font-family: 'Montserrat', sans-serif;
+  color: #ffffdd;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.module {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.module p{
+  color: white;
+}
+
+
+/* Page structure */
+.content {
+  width: 78%;
+  float: right;
+  padding: 2.5%;
+}
+
+.mainMenu {
+    width: 22%;
+    position: fixed;
+    z-index: 1;
+    float: left;
+    padding: 2%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.mainMenu a {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  /* display: inline; */
+}
+
+.mainMenu:hover {
+    overflow-y: scroll;
+}
+
+.mainMenu::-webkit-scrollbar {
+    display: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: #2FAE77;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: none;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color: #eab126;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropbtn{
+  background-color: #2FAE77;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.drop{
+  margin-left:0;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  display: inline;
+
+}
+.tbtn
+{
+  background-color: #2FAE77;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 600%;
+
+}
+
+/*.tbtn a:hover{
+
+}*/
+.inlinelink {
+  color: black;
+  text-decoration: underline;
+}
+
+.inlinelink:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+/* .abtn:hover, .topbmod a:hover{
+  color: #fce373;
+} */
+
+.abtnalt:hover {
+  /* color: #ffffdd; */
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 17px;
+}
+.abtnalt1:hover {
+  /* color: #ffffdd; */
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 16px;
+}
+.abtnalt {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.abtn:hover {
+  color: #ffffdd;
+}
+
+.tbtn:hover{
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  background-color: #2FAE77;
+  font-size: 20px;
+  padding: 725%;
+
+}
+
+
+
+.techHead {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 20px;
+
+}
+
+
+.topbmod {
+  font-family: 'Josefin Sans', sans-serif;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  width: 18%;
+  text-decoration: none;
+}
+
+.topbmod:focus, .topbmod:visited, .topbmod:link, .topbmod:active{
+    text-decoration: none;
+    outline: none;
+}
+
+.topbmod a{
+  color: black;
+  text-decoration: none;
+}
+
+.bmod{
+  text-align: center;
+  /* padding: 5px 6px 6px 16px; */
+  text-decoration: none;
+  font-size: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  border: none;
+  margin-top: 2.5%;
+  position: relative;
+}
+
+.bmod img {
+  width: 100%;
+  height: 75vh;
+  background-clip: border-box;
+  border: 4px solid transparent;
+}
+
+
+/*
+#techniques img:hover {
+  border: 4px solid #25a2a6;
+}
+
+#genres .alabel {
+  background-color: rgba(241, 75, 78, 0.5);
+}
+
+#genres img:hover {
+  border: 4px solid #25a2a6;
+}
+
+#history .alabel {
+  background-color: #25a2a675;
+}
+
+#history img:hover {
+  border: 4px solid #25a2a6;
+} */
+
+
+hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-color: white;
+}
+
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  line-height: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  color: #eab126;
+  text-transform: lowercase;
+}
+
+.landinghead {
+  color: #ffffdd;
+}
+
+h2 {
+  margin: 0;
+  font-size: 6.5rem;
+  letter-spacing: 0.5rem;
+  line-height: 7.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  color: black;
+  text-transform: lowercase;
+}
+
+img {
+  width: 100%;
+  max-height: 80vh;
+  object-fit: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+
+p,li,ul,blockquote {
+  text-align: justify;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+
+.main {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+#scrolltotop{
+  padding-left: 95%;
+  color: #2FAE77;
+}
+
+footer  {
+  font-size: 1.3rem;
+  color: black;
+  /* font-weight: bold; */
+  text-align: left;
+}

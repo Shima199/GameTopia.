@@ -1,0 +1,280 @@
+body {
+
+  font-size: 2rem;
+  width: 100%;
+  min-width: 1000px;
+  margin: 0 auto;
+}
+
+.sand {
+  background-color: black;
+}
+
+
+.paleyel {
+  background-color: #2fae77;
+}
+.header {
+  position: relative;
+
+
+}
+
+#mainTitle{
+  margin-top: 10%;
+  text-transform: capitalize;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  text-align: center;
+  width: 400px;
+	height: 68px;
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+
+}
+
+#s{
+  text-align: center;
+
+}
+.text-block {
+
+  margin-top: 10%;
+  opacity: 0.8;
+  width: 630px;
+	height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2fae77;
+
+}
+
+.in-page-nav{
+  text-align: center;
+  color: white;
+  padding-right: 5%;
+}
+
+.in-page-nav a{
+  color: white;
+  padding-left: 2.5%;
+}
+
+.mainSubtitle {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+#gh{
+  border: 5px solid gray;
+}
+.module {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.module p{
+  color: white;
+}
+
+.content {
+  width: 78%;
+  float: right;
+  padding: 2.5%;
+}
+
+.mainMenu {
+    width: 22%;
+    position: fixed;
+    z-index: 1;
+    float: left;
+    padding: 2%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.mainMenu a {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.mainMenu:hover {
+    overflow-y: scroll;
+}
+
+.mainMenu::-webkit-scrollbar {
+    display: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: #2FAE77;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: none;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color: #eab126;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropbtn{
+  background-color: #2FAE77;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.drop{
+  margin-left:0;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  display: inline;
+
+}
+.tbtn
+{
+  background-color: #2FAE77;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 600%;
+
+}
+
+
+.abtnalt:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 17px;
+}
+.abtnalt1:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 16px;
+}
+.abtnalt {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.abtn:hover {
+  color: #ffffdd;
+}
+
+.tbtn:hover{
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  background-color: #2FAE77;
+  font-size: 20px;
+  padding: 725%;
+
+}
+
+hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  line-height: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  color: #eab126;
+  text-transform: lowercase;
+}
+
+img {
+  width: 100%;
+  max-height: 80vh;
+  object-fit: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.diagram {
+  object-fit: contain;
+  max-height: 120vh;
+}
+
+.lists a:link{
+    background-color: transparent;
+    text-decoration: none;
+    color: #ffffdd;
+    font-weight: bold;
+}
+.lists a:visited {
+    background-color: transparent;
+    text-decoration: none;
+    color: #ffffdd;
+}
+
+.lists a:active {
+    background-color: transparent;
+    text-decoration: underline;
+    color: #ffffdd;
+  }
+.lists h4{
+  font-weight: lighter;
+}
+
+
+p {
+  text-align: justify;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+
+.main {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+iframe{
+  width: 502px;
+  height: 282px;
+  margin-left: 22%;
+  border: 0px;
+}
+
+*{
+	box-sizing: border-box;
+}
+#scrolltotop{
+  padding-left: 95%;
+  color: #2FAE77;
+}
+
+footer  {
+  font-size: 1.3rem;
+  color: white;
+  text-align: left;
+}

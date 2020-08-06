@@ -119,8 +119,41 @@ body {
 .mainMenu::-webkit-scrollbar {
     display: none;
 }
+.dropbtn {
+  float: right;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-decoration: none;
+  color: transparent;
+  display: inline;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.dropdown-content {
+  display: none;
+  background-color: transparent;
+  margin-left: 10%;
+}
 
-.dropdown {
+.pagem:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 17px;
+}
+.pagem2:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 22px;
+}
+.pagem1:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 16px;
+}
+/*.dropdown {
   position: relative;
   display: inline-block;
   background-color: #2FAE77;
@@ -194,7 +227,7 @@ body {
   font-size: 20px;
   padding: 725%;
 
-}
+}*/
 
 hr {
   margin-top: 1.5rem;

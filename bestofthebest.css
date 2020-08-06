@@ -197,18 +197,37 @@ p,li,ul {
     display: none;
 }
 
-.dropdown {
+/*.dropdown {
   position: relative;
   display: inline-block;
   background-color: #2FAE77;
-}
+}*/
 
 .video{
   margin: 0 auto;
   display: block;
 
 }
+.dropbtn {
+  float: right;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-decoration: none;
+  color: transparent;
+  display: inline;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
 .dropdown-content {
+  display: none;
+  background-color: transparent;
+  margin-left: 10%;
+}
+
+/*.dropdown-content {
   display: none;
   position: absolute;
   background: none;
@@ -249,7 +268,7 @@ p,li,ul {
   padding-left: 600%;
 
 }
-
+*/
 
 .pagem:hover {
   font-family: 'Press Start 2P', cursive;
@@ -260,6 +279,11 @@ p,li,ul {
   font-family: 'Press Start 2P', cursive;
   color: #eab126;
   font-size: 16px;
+}
+.pagem2:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 22px;
 }
 .pagem {
   font-family: 'Josefin Sans', sans-serif;

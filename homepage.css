@@ -106,14 +106,31 @@ p{
 .mainMenu::-webkit-scrollbar {
     display: none;
 }
-
-.dropdown {
+.dropbtn {
+  float: right;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-decoration: none;
+  color: transparent;
+  display: inline;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.dropdown-content {
+  display: none;
+  background-color: transparent;
+  margin-left: 10%;
+}
+/*.dropdown {
   position: relative;
   display: inline-block;
   background-color: #2FAE77;
-}
+}*/
 
-.dropdown-content {
+/*.dropdown-content {
   display: none;
   position: absolute;
   background: none;
@@ -128,24 +145,36 @@ p{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-}
-.dropbtn{
+}*/
+/*.dropbtn{
   background-color: #2FAE77;
-}
+  float: right;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-decoration: none;
+  color: transparent;
+  display: inline;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}*/
 
-.dropdown:hover .dropdown-content {
+/*.dropdown:hover .dropdown-content {
   display: block;
 }
-
-.drop{
+*/
+/*.drop{
   margin-left:0;
   list-style-type: none;
   padding: 0;
   overflow: hidden;
   display: inline;
 
-}
-.dbtn
+}*/
+
+/*.dbtn
 {
   background-color: #2FAE77;
   text-align: center;
@@ -153,29 +182,32 @@ p{
   padding-left: 600%;
 
 }
-
+*/
 .pagem:hover {
   font-family: 'Press Start 2P', cursive;
   color: #eab126;
   font-size: 17px;
+}
+.pagem2:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 22px;
 }
 .pagem1:hover {
   font-family: 'Press Start 2P', cursive;
   color: #eab126;
   font-size: 16px;
 }
-.pagem {
-  font-family: 'Josefin Sans', sans-serif;
-}
 
-.dbtn:hover{
+
+/*.dbtn:hover{
   font-family: 'Press Start 2P', cursive;
   color: #eab126;
   background-color: #2FAE77;
   font-size: 20px;
   padding: 725%;
 }
-
+*/
 .gmod{
   text-align: center;
   text-decoration: none;
@@ -249,4 +281,12 @@ footer  {
   font-size: 1.3rem;
   color: white;
   text-align: left;
+}
+.abtnalt:hover {
+  /* color: #ffffdd; */
+  color: #eab126
+}
+.tbtn:hover, .techHead {
+  /* color: #9cd08e; */
+  color: #1b7b34;
 }

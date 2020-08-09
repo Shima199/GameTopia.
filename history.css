@@ -97,7 +97,7 @@ h1,h2,h4,h5,h6 {
 				}
 				#issues li img {
 					// float: left;
-            width: 200px; // add
+           				width: 200px; // add
 					margin: 10px 30px 10px 50px;
 					-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */
 					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */
@@ -121,8 +121,9 @@ h1,h2,h4,h5,h6 {
           text-transform:capitalize;
 				}
 				#issues li p {
-					font-size: 14px;
-					margin: 10px 20px;
+					font-size: 18px;
+					width: 350px;
+					/* margin: 10px 20px; */
 					font-weight: normal;
 					line-height: 22px;
 					text-shadow: #000 1px 1px 2px;

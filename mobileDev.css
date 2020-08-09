@@ -1,0 +1,606 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  width: 100%;
+  min-width: 1000px;
+  margin: 0 auto;
+}
+
+.sand {
+  background-color: black;
+}
+
+
+.paleyel {
+  background-color: #2fae77;
+}
+.header {
+  position: relative;
+}
+.header img{
+
+}
+#mainTitle{
+  margin-top: 10%;
+  text-transform: capitalize;
+  padding-left: 20px;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  text-align: center;
+  width: 400px;
+	height: 68px;
+  position: absolute;
+  top: -25%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+
+}
+
+.text-block {
+  margin-bottom: 0px;
+  margin-top: 10%;
+  opacity: 1;
+  width: 630px;
+	height: 80px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2fae77;
+}
+#titlebg{
+  width: 100%;
+  height: 400px;
+}
+
+#pageTitle{
+  font-size:3rem;
+  margin-top: -3.5%;
+  margin-bottom: 5%;
+  color: white;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color:#FFFF;
+  height: 2px;
+}
+
+
+.slide-container .prev,
+.slide-container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.slide-container .prev:hover,
+.slide-container .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.slide-container .prev {
+  left: 2px;
+}
+
+.slide-container .next {
+  right: 2px;
+}
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.dots-container .dot {
+  cursor: pointer;
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+  color: #333;
+  border-radius: 50%;
+  background-color: #dfd6ce;
+}
+
+.dots-container .dot.active {
+
+  border: 2px solid green;
+}
+
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+/*   background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
+}
+
+body h1 {
+  text-align: center;
+}
+
+.slide-container {
+  left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+.slide-container .slide {
+  display: none;
+  width: 100%;
+}
+
+.slide-container .slide.fade {
+  animation: fade 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.slide-container .slide img {
+  width: 800px;
+  height: 550px;
+}
+
+
+
+#btn1{
+    margin-top: 7%;
+    color: #cecece;
+    margin-left: 10%;
+    font-size: 15px;
+    width: 100%;
+    height: 100px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#btn2{
+  margin-top: 7%;
+  margin-left: 1%;
+  font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    background-color: #cecece ;
+    width: 450px;
+    height: 80px;
+}
+
+
+
+
+
+
+a {
+  text-decoration: none;
+}
+
+h2{
+  color: #ffffdd;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+
+
+.mainSubtitle {
+font-family: 'Montserrat', sans-serif;
+  color: #ffffdd;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+
+#ios{
+  margin-bottom: 15%;
+}
+
+.module {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.module p{
+  color: white;
+}
+
+
+/* Page structure */
+.content {
+  width: 78%;
+  float: right;
+  padding: 2.5%;
+}
+
+.mainMenu {
+    width: 22%;
+    position: fixed;
+    z-index: 1;
+    float: left;
+    padding: 2%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.mainMenu a {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  /* display: inline; */
+}
+
+.mainMenu:hover {
+    overflow-y: scroll;
+}
+
+.mainMenu::-webkit-scrollbar {
+    display: none;
+}
+.dropbtn {
+  float: right;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-decoration: none;
+  color: transparent;
+  display: inline;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.dropdown-content {
+  display: none;
+  background-color: transparent;
+  margin-left: 10%;
+}
+.pagem:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 17px;
+}
+.pagem2:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 22px;
+}
+.pagem1:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 16px;
+}
+
+/*.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: #2FAE77;
+}*/
+
+/*.dropdown-content {
+  display: none;
+  position: absolute;
+  background: none;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color: #eab126;
+}*/
+
+/*.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropbtn{
+  background-color: #2FAE77;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.drop{
+  margin-left:0;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  display: inline;
+}
+.tbtn
+{
+  background-color: #2FAE77;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 600%;
+}
+.tbtn a:hover{
+}*/
+.inlinelink {
+  color: black;
+  text-decoration: underline;
+}
+
+.inlinelink:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+/* .abtn:hover, .topbmod a:hover{
+  color: #fce373;
+} */
+
+/*.abtnalt:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 17px;
+}
+.abtnalt1:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 16px;
+}
+.abtnalt {
+  font-family: 'Josefin Sans', sans-serif;
+}*/
+
+/*.abtn:hover {
+  color: #ffffdd;
+}
+.tbtn:hover{
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  background-color: #2FAE77;
+  font-size: 20px;
+  padding: 725%;
+}*/
+
+
+
+/*.techHead {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 20px;
+}
+.topbmod {
+  font-family: 'Josefin Sans', sans-serif;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  width: 18%;
+  text-decoration: none;
+}
+.topbmod:focus, .topbmod:visited, .topbmod:link, .topbmod:active{
+    text-decoration: none;
+    outline: none;
+}
+.topbmod a{
+  color: black;
+  text-decoration: none;
+}
+.bmod{
+  text-align: center;
+  text-decoration: none;
+  font-size: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  border: none;
+  margin-top: 2.5%;
+  position: relative;
+}
+.bmod img {
+  width: 100%;
+  height: 75vh;
+  background-clip: border-box;
+  border: 4px solid transparent;
+}*/
+
+
+/*
+#techniques img:hover {
+  border: 4px solid #25a2a6;
+}
+
+#genres .alabel {
+  background-color: rgba(241, 75, 78, 0.5);
+}
+#genres img:hover {
+  border: 4px solid #25a2a6;
+}
+#history .alabel {
+  background-color: #25a2a675;
+}
+#history img:hover {
+  border: 4px solid #25a2a6;
+} */
+
+
+hr {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  border-color: white;
+}
+
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  line-height: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  color: #eab126;
+  text-transform: lowercase;
+}
+
+.landinghead {
+  color: #ffffdd;
+}
+
+h2 {
+  margin: 0;
+  font-size: 6.5rem;
+  letter-spacing: 0.5rem;
+  line-height: 7.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  color: black;
+  text-transform: lowercase;
+}
+
+
+
+img {
+  width: 100%;
+  max-height: 80vh;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+p,li,ul,blockquote {
+  text-align: justify;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+
+.main {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+#scrolltotop{
+  padding-left: 95%;
+  color: #2FAE77;
+}
+
+footer  {
+  font-size: 1.3rem;
+  color: black;
+  /* font-weight: bold; */
+  text-align: left;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  left: 0%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

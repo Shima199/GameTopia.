@@ -39,24 +39,25 @@ h1 {
   color: #eab126;
   text-transform: lowercase;
 }
-
 #mainTitle{
+  /* margin-top: 10%; */
   text-transform: capitalize;
   font-family: 'Press Start 2P', cursive;
   color: white;
   text-align: center;
   width: 400px;
-  height: 68px;
+	height: 68px;
   position: absolute;
-  top: 50%;
-  left: 37%;
+  top: 33%;
+  left: 54%;
   transform: translate(-50%, -50%);
-  opacity: 0.9;
+  opacity: 1;
+
 }
 
 .text-block {
  margin-top: 10%;
- opacity: 1;
+ opacity: 0.8;
  width: 630px;
  height: 80px;
  position: absolute;
@@ -66,13 +67,6 @@ h1 {
  background-color: #2fae77;
 }
 
-
-
-.main {
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-
 .mainSubtitle {
   font-family: 'Press Start 2P', cursive;
   color: #ffffdd;
@@ -80,6 +74,7 @@ h1 {
   font-weight: bold;
   margin-top: 0.5rem;
   text-align: center;
+
 }
 
 h2 {
@@ -90,95 +85,25 @@ h2 {
   margin-top: 0.5rem;
 }
 
+h3 {
+  font-family: 'Press Start 2P', cursive;
+  color: #ffffdd;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
 .content {
   width: 78%;
   float: right;
   padding: 2.5%;
 }
 
-/*.mainMenu {
-    width: 22%;
-    position: fixed;
-    z-index: 1;
-    float: left;
-    padding: 2%;
-    height: 100vh;
-    overflow-x: hidden;
+.main {
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
-.mainMenu a {
-  padding-top: 6px;
-  padding-bottom: 6px;
-  text-decoration: none;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.5rem;
-  color: black;
-}
-.mainMenu:hover {
-    overflow-y: scroll;
-}
-.mainMenu::-webkit-scrollbar {
-    display: none;
-}
-.dropdown {
-  position: relative;
-  display: inline-block;
-  background-color: #2FAE77;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background: none;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  background-color: #eab126;
-}
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-.dropbtn{
-  background-color: #2FAE77;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.drop{
-  margin-left:0;
-  list-style-type: none;
-  padding: 0;
-  overflow: hidden;
-  display: inline;
-}
-.dbtn
-{
-  background-color: #2FAE77;
-  text-align: center;
-  text-decoration: none;
-  padding-left: 600%;
-}
-.pagem:hover {
-  font-family: 'Press Start 2P', cursive;
-  color: #eab126;
-  font-size: 17px;
-}
-.pagem1:hover {
-  font-family: 'Press Start 2P', cursive;
-  color: #eab126;
-  font-size: 16px;
-}
-.pagem {
-  font-family: 'Josefin Sans', sans-serif;
-}
-.dbtn:hover {
-  font-family: 'Press Start 2P', cursive;
-  color: #eab126;
-  background-color: #2FAE77;
-  font-size: 20px;
-  padding: 725%;
-} */
+
 .mainMenu {
     width: 22%;
     position: fixed;
@@ -237,9 +162,9 @@ h2 {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   background-color: #eab126;
-}*/
+}
 
-/*.dropdown-content a {
+.dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -247,12 +172,23 @@ h2 {
 }*/
 /*.dropbtn{
   background-color: #2FAE77;
+  float: right;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-decoration: none;
+  color: transparent;
+  display: inline;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
 }*/
 
 /*.dropdown:hover .dropdown-content {
   display: block;
-}*/
-
+}
+*/
 /*.drop{
   margin-left:0;
   list-style-type: none;
@@ -261,6 +197,7 @@ h2 {
   display: inline;
 
 }*/
+
 /*.dbtn
 {
   background-color: #2FAE77;
@@ -268,26 +205,24 @@ h2 {
   text-decoration: none;
   padding-left: 600%;
 
-}*/
-
+}
+*/
 .pagem:hover {
   font-family: 'Press Start 2P', cursive;
   color: #eab126;
   font-size: 17px;
-}
-.pagem1:hover {
-  font-family: 'Press Start 2P', cursive;
-  color: #eab126;
-  font-size: 16px;
 }
 .pagem2:hover {
   font-family: 'Press Start 2P', cursive;
   color: #eab126;
   font-size: 22px;
 }
-.pagem {
-  font-family: 'Josefin Sans', sans-serif;
+.pagem1:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 16px;
 }
+
 
 /*.dbtn:hover{
   font-family: 'Press Start 2P', cursive;
@@ -295,7 +230,8 @@ h2 {
   background-color: #2FAE77;
   font-size: 20px;
   padding: 725%;
-}*/
+}
+*/
 
 p,li,ul,blockquote {
 	font-weight: 300;
@@ -318,4 +254,35 @@ footer  {
   font-size: 1.3rem;
   color: white;
   text-align: left;
+}
+
+
+.tab {
+  overflow: hidden;
+  background-color: #2FAE77;
+}
+
+.tabbutton {
+  background-color: #2FAE77;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.47rem;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tabbutton:hover {
+  background-color: #f1ce74;
+}
+
+.tabbutton.active {
+  background-color: #eab126;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
 }

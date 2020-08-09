@@ -31,12 +31,62 @@ body {
   width: 400px;
 	height: 68px;
   position: absolute;
-  top: 50%;
-  left: 42%;
+  top: -25%;
+  left: 35%;
   transform: translate(-50%, -50%);
   opacity: 1;
 
 }
+
+.text-block {
+  margin-bottom: 0px;
+  margin-top: 10%;
+  opacity: 1;
+  width: 630px;
+	height: 80px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2fae77;
+}
+#titlebg{
+  width: 100%;
+  height: 400px;
+}
+
+#pageTitle{
+  font-size:3rem;
+  margin-top: 0%;
+  color: white;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#mario{
+  width: 60%;
+}
+
+#btn1{
+    margin-top: 7%;
+    color: #cecece;
+    margin-left: 2%;
+    font-size: 20px;
+    width: 20%;
+    height: 100px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#btn2{
+  margin-top: 7%;
+  margin-left: 13%;
+  font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    background-color: #cecece ;
+    width: 546px;
+    height: 100px;
+}
+
 
 #fimage{
   margin-top: 6%;
@@ -46,33 +96,16 @@ body {
 
 }
 
-#pageTitle{
-  font-size:3rem;
-  margin-top: 6%;
-  color: white;
-  text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-}
 
-#titlehr{
-  margin-top: 1px;
-  top: 90%;
-  width: 100%;
-}
-.text-block {
-
-  margin-top: 10%;
-  opacity: 1;
-  width: 630px;
-	height: 80px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #2fae77;
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color:#FFFF;
+  height: 2px;
 
 }
-
 a {
   text-decoration: none;
 }
@@ -144,47 +177,14 @@ font-family: 'Montserrat', sans-serif;
 .mainMenu::-webkit-scrollbar {
     display: none;
 }
-.dropbtn {
-  float: right;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  text-decoration: none;
-  color: transparent;
-  display: inline;
-  border: none;
-  background: none;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
-}
-.dropdown-content {
-  display: none;
-  background-color: transparent;
-  margin-left: 10%;
-}
-.pagem:hover {
-  font-family: 'Press Start 2P', cursive;
-  color: #eab126;
-  font-size: 17px;
-}
-.pagem2:hover {
-  font-family: 'Press Start 2P', cursive;
-  color: #eab126;
-  font-size: 22px;
-}
-.pagem1:hover {
-  font-family: 'Press Start 2P', cursive;
-  color: #eab126;
-  font-size: 16px;
-}
 
-/*.dropdown {
+.dropdown {
   position: relative;
   display: inline-block;
   background-color: #2FAE77;
-}*/
+}
 
-/*.dropdown-content {
+.dropdown-content {
   display: none;
   position: absolute;
   background: none;
@@ -192,9 +192,9 @@ font-family: 'Montserrat', sans-serif;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   background-color: #eab126;
-}*/
+}
 
-/*.dropdown-content a {
+.dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -226,7 +226,8 @@ font-family: 'Montserrat', sans-serif;
 
 }
 
-.tbtn a:hover{
+/*.tbtn a:hover{
+
 }*/
 .inlinelink {
   color: black;
@@ -242,23 +243,23 @@ font-family: 'Montserrat', sans-serif;
   color: #fce373;
 } */
 
-/*.abtnalt:hover {
-
+.abtnalt:hover {
+  /* color: #ffffdd; */
   font-family: 'Press Start 2P', cursive;
   color: #eab126;
   font-size: 17px;
 }
 .abtnalt1:hover {
-
+  /* color: #ffffdd; */
   font-family: 'Press Start 2P', cursive;
   color: #eab126;
   font-size: 16px;
 }
 .abtnalt {
   font-family: 'Josefin Sans', sans-serif;
-}*/
+}
 
-/*.abtn:hover {
+.abtn:hover {
   color: #ffffdd;
 }
 
@@ -269,11 +270,11 @@ font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   padding: 725%;
 
-}*/
+}
 
 
 
-/*.techHead {
+.techHead {
   font-family: 'Press Start 2P', cursive;
   color: #eab126;
   font-size: 20px;
@@ -302,6 +303,7 @@ font-family: 'Montserrat', sans-serif;
 
 .bmod{
   text-align: center;
+  /* padding: 5px 6px 6px 16px; */
   text-decoration: none;
   font-size: 3rem;
   font-family: "Josefin Sans", sans-serif;
@@ -316,22 +318,26 @@ font-family: 'Montserrat', sans-serif;
   height: 75vh;
   background-clip: border-box;
   border: 4px solid transparent;
-}*/
+}
 
 
 /*
 #techniques img:hover {
   border: 4px solid #25a2a6;
 }
+
 #genres .alabel {
   background-color: rgba(241, 75, 78, 0.5);
 }
+
 #genres img:hover {
   border: 4px solid #25a2a6;
 }
+
 #history .alabel {
   background-color: #25a2a675;
 }
+
 #history img:hover {
   border: 4px solid #25a2a6;
 } */
@@ -372,7 +378,6 @@ h2 {
 img {
   width: 100%;
   max-height: 80vh;
-  object-fit: cover;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }

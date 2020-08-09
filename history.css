@@ -1,4 +1,4 @@
-.tl {
+a {
 	color: #ffffcc;
 	text-decoration: none;
 	-webkit-transition: 0.5s;
@@ -14,7 +14,7 @@
   margin-right: 40px;
   margin-top: 1px;
 }
-	tl:hover,
+	a:hover,
 	a.selected {
 		color: #ffcc00;
 	}

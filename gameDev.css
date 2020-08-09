@@ -178,7 +178,7 @@ font-family: 'Montserrat', sans-serif;
     display: none;
 }
 
-.dropdown {
+/* .dropdown {
   position: relative;
   display: inline-block;
   background-color: #2FAE77;
@@ -224,7 +224,7 @@ font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   padding-left: 600%;
 
-}
+} */
 
 /*.tbtn a:hover{
 
@@ -238,39 +238,71 @@ font-family: 'Montserrat', sans-serif;
   color: black;
   text-decoration: underline;
 }
+.dropbtn {
+  float: right;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-decoration: none;
+  color: transparent;
+  display: inline;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.dropdown-content {
+  display: none;
+  background-color: transparent;
+  margin-left: 10%;
+}
+.pagem:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 17px;
+}
+
+.pagem2:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 22px;
+}
+.pagem1:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 16px;
+}
 
 /* .abtn:hover, .topbmod a:hover{
   color: #fce373;
 } */
 
-.abtnalt:hover {
-  /* color: #ffffdd; */
+/* .abtnalt:hover {
   font-family: 'Press Start 2P', cursive;
   color: #eab126;
   font-size: 17px;
-}
-.abtnalt1:hover {
-  /* color: #ffffdd; */
+} */
+/* .abtnalt1:hover {
   font-family: 'Press Start 2P', cursive;
   color: #eab126;
   font-size: 16px;
-}
-.abtnalt {
+} */
+/* .abtnalt {
   font-family: 'Josefin Sans', sans-serif;
 }
 
 .abtn:hover {
   color: #ffffdd;
-}
+} */
 
-.tbtn:hover{
+/* .tbtn:hover{
   font-family: 'Press Start 2P', cursive;
   color: #eab126;
   background-color: #2FAE77;
   font-size: 20px;
   padding: 725%;
 
-}
+} */
 
 
 

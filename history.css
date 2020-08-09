@@ -14,7 +14,7 @@
   margin-right: 40px;
   margin-top: 1px;
 }
-	a:hover,
+	tl:hover,
 	a.selected {
 		color: #ffcc00;
 	}

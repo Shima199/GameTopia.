@@ -70,21 +70,21 @@ body {
 #btn1{
     margin-top: 7%;
     color: #cecece;
-    margin-left: 2%;
-    font-size: 20px;
-    width: 20%;
+    margin-left: 10%;
+    font-size: 15px;
+    width: 100%;
     height: 100px;
     font-family: 'Press Start 2P', cursive;
 }
 
 #btn2{
   margin-top: 7%;
-  margin-left: 13%;
+  margin-left: 1%;
   font-family: 'Press Start 2P', cursive;
-    font-size: 20px;
+    font-size: 15px;
     background-color: #cecece ;
-    width: 546px;
-    height: 100px;
+    width: 450px;
+    height: 80px;
 }
 
 

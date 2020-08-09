@@ -41,8 +41,7 @@ In Project Part 3, we are going to incorporate JavaScript in our code to augment
 | ------------- | ------------- |
 | Hamza Abdulghani 1824321 |  ●	Page: Gaming Platforms. ●	Page: Game Companies. ●	Web elements: Navigation buttons for the 3 consoles, static images, and styling elements, added an embed video instead of the gif used in the page of project part 2.  |
 | Shima Haidar 1725900 |  ●	Page: Homepage . ● Page: History. ● Make a dropdown menu in the navigation bar for all the pages using JS, added images, and intro of the newly added pages.  |
-|  Kawther Shamsu Alam 1725622 | ●	Page: Best of the best 2010s  ● Page: Best of the best 1990s ● Web Elements: Using a function to make a drop-down effect for the contents, styling elements
-And static images. | 
+|  Kawther Shamsu Alam 1725622 | ●	Page: Best of the best 2010s  ● Page: Best of the best 1990s ● Web Elements: Using a function to make a drop-down effect for the contents, styling elements and static images. | 
 |   Alameer Almasri Qasi  1733881 |  ● Page: Desktop Game Development. ● Page: Mobile Game Development. ● Web Elements: Using a function to display information as a slideshow in the Mobile Game Development page, static images, navigation buttons, and styling elements.  |
 |   Fawzanah Raheem 1728054 |  ● Page: Genres. ● Page Sub-genres. ● Web Elements: Tabs, static images, and styling elements.  |
 
@@ -51,6 +50,11 @@ And static images. |
 
 
 3.Use of third party resources:
+
+●	Fonts used:
+1.https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Press+Start+2P&display=swap
+2.https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap
+3.https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap
 
 ●	Images used:
 
@@ -63,6 +67,28 @@ https://images.app.goo.gl/egiRXLccjhrafdFf8
 https://images.app.goo.gl/nD2JWUXcjVss2Hzx7
 
 https://images.app.goo.gl/K9kHUQ16s6nV2xVNA
+
+●	Videos used:
+
+PS5
+https://www.youtube.com/watch?v=RkC0l4iekYo
+X-box x 
+https://www.youtube.com/watch?v=0tUqIHwHDEc
+Sports
+https://www.youtube.com/watch?v=YfvMNaphiUE
+
+●	To refer to functions :
+https://www.w3schools.com/
+
+●	To make images transparent :
+https://www.remove.bg/upload
+https://onlinepngtools.com/create-transparent-png
+
+
+●	To get the exact color of some pictures :
+https://imagecolorpicker.com/en/
+https://www.w3schools.com/colors/colors_picker.asp
+
 
 ●	references for Best of the Best page:
 
@@ -84,15 +110,6 @@ https://www.ukessays.com/essays/video-games/2d-and-3d-games.php
 https://dev.to/scottslatton/game-development-pipeline-and-technologies-h0b
 
 3- Game career guide https://www.gamecareerguide.com/features/529/what_is_a_game_.php
-
-
-
-
-
-
-
-
-
 
 
 ●	references for Game Genres page:

@@ -41,8 +41,9 @@ In Project Part 3, we are going to incorporate JavaScript in our code to augment
 | ------------- | ------------- |
 | Hamza Abdulghani 1824321 |  ●	Page: Gaming Platforms. ●	Page: Game Companies. ●	Web elements: Navigation buttons for the 3 consoles, static images, and styling elements, added an embed video instead of the gif used in the page of project part 2.  |
 | Shima Haidar 1725900 |  ●	Page: Homepage . ● Page: History. ● Make a dropdown menu in the navigation bar for all the pages using JS, added images, and intro of the newly added pages.  |
-|  Kawthar Saleh 1725622 | ●	Page: Best of the best 2010s  ●	Web elements: overlay images and embedding a video from youtube. | ●	adding new ideas like the best games in another timeline ●	and more features using javascript. | 
-|   Qasi elameer 1733881 |  ●	Page: Game development ●	Page: Game development |  ●	Adding more navigation options to the page, and perhaps link to the other webpages  |
+|  Kawther Shamsu Alam 1725622 | ●	Page: Best of the best 2010s  ● Page: Best of the best 1990s ● Web Elements: Using a function to make a drop-down effect for the contents, styling elements
+And static images. | 
+|   Alameer Almasri Qasi  1733881 |  ● Page: Desktop Game Development. ● Page: Mobile Game Development. ● Web Elements: Using a function to display information as a slideshow in the Mobile Game Development page, static images, navigation buttons, and styling elements.  |
 |   Fawzanah Raheem 1728054 |  ● Page: Genres. ● Page Sub-genres. ● Web Elements: Tabs, static images, and styling elements.  |
 
 --------------------------

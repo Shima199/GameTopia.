@@ -40,8 +40,8 @@ In Project Part 3, we are going to incorporate JavaScript in our code to augment
  | NAME  | CONTRIBUTIONS |
 | ------------- | ------------- |
 | Hamza Abdulghani 1824321 |  ●	Page: Gaming Platforms  
-                              ●	Page: Game Companies  
-                              ●	Web elements: Navigation buttons for the 3 consoles, static images, and styling elements, added an embed video instead of the gif used in the page of project part 2.  |
+|                          |  ●	Page: Game Companies  
+|                          |  ●	Web elements: Navigation buttons for the 3 consoles, static images, and styling elements, added an embed video instead of the gif used in the     |                               page of project part 2.  |
 | Shima Haidar 1725900 |  ●	Page: Homepage  
                           ● Page: History. 
                           ● Make a dropdown menu in the navigation bar for all the pages using JS, added images, and intro of the newly added pages.  |

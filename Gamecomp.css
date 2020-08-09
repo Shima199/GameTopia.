@@ -1,0 +1,580 @@
+body {
+
+  width: 100%;
+  min-width: 1000px;
+  margin: 0 auto;
+  padding: 0px;
+
+}
+
+.sand {
+  background-color: black;
+}
+
+
+.paleyel {
+  background-color: #2fae77;
+}
+.header {
+  position: relative;
+
+
+}
+#mainTitle{
+  margin-top: 10%;
+  text-transform: capitalize;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  text-align: center;
+  width: 400px;
+	height: 68px;
+  position: absolute;
+  top: 35%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+
+}
+
+#s{
+  text-align: center;
+
+}
+.text-block {
+
+  margin-top: 10%;
+  opacity: 0.8;
+  width: 630px;
+	height: 80px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2fae77;
+
+}
+
+.in-page-nav{
+  text-align: center;
+  color: white;
+  padding-right: 5%;
+}
+
+.in-page-nav a{
+  color: white;
+  padding-left: 2.5%;
+}
+
+.mainSubtitle {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+#gh{
+  border: 5px solid gray;
+}
+.module {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.module p{
+  color: white;
+}
+
+.content {
+  width: 78%;
+  float: right;
+  padding: 2.5%;
+}
+
+.mainMenu {
+    width: 22%;
+    position: fixed;
+    z-index: 1;
+    float: left;
+    padding: 2%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.mainMenu a {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.mainMenu:hover {
+    overflow-y: scroll;
+}
+
+.mainMenu::-webkit-scrollbar {
+    display: none;
+}
+.dropbtn {
+  float: right;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-decoration: none;
+  color: transparent;
+  display: inline;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.dropdown-content {
+  display: none;
+  background-color: transparent;
+  margin-left: 10%;
+}
+
+.pagem:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 17px;
+}
+.pagem2:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 22px;
+}
+.pagem1:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #eab126;
+  font-size: 16px;
+}
+
+
+hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  line-height: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  color: #eab126;
+  text-transform: lowercase;
+}
+
+img {
+  width: 100%;
+  max-height: 80vh;
+  object-fit: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.diagram {
+  object-fit: contain;
+  max-height: 120vh;
+}
+
+.lists a:link{
+    background-color: transparent;
+    text-decoration: none;
+    color: #ffffdd;
+    font-weight: bold;
+}
+.lists a:visited {
+    background-color: transparent;
+    text-decoration: none;
+    color: #ffffdd;
+}
+
+.lists a:active {
+    background-color: transparent;
+    text-decoration: underline;
+    color: #ffffdd;
+  }
+.lists h4{
+  font-weight: lighter;
+}
+
+
+/*p {
+  text-align: justify;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}*/
+
+.main {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: 2rem;
+
+}
+
+iframe{
+  width: 502px;
+  height: 282px;
+  margin-left: 22%;
+  border: 0px;
+}
+
+*{
+	box-sizing: border-box;
+
+}
+
+
+body
+{
+  padding: 0px;
+  margin: 0px;
+}
+h1
+{
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+/*#para1
+{
+  text-align: center;
+  width: 75%;
+  margin:0 auto;
+  font-size: 1.3rem;
+}*/
+  .wrapper{
+    padding-left: 1%;
+
+  }
+  .row{
+    max-width: 1024px;
+    margin: 0px auto;
+  }
+
+  *,*:before,*:after{
+    box-sizing: border-box;
+  }
+  .cf:before,
+  .cf:after{
+    display: table;
+    content: " ";
+  }
+  .cf:after{
+    clear: both
+  }
+
+  .header{
+    /*text-align: center;*/
+    padding: 0px 15px;
+    margin-bottom: 30px;
+  }
+
+
+  /*fancy card styling*/
+  .cards{
+
+
+  }
+  .fancy-card{
+    background: #ececec;
+    width: 100%;
+    height: 400px;
+    display: block;
+    float: left;
+    position: relative;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    transition: all 250ms ease-in;
+    min-height: 300px;
+    background-size: cover;
+    margin-bottom: 30px;
+  }
+  .fancy-card.one{
+     background-image: url("sony.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     border: 5px solid gray;
+  }
+  .fancy-card.two{
+     background-image: url("nintendo-logo.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     border: 5px solid gray;
+  }
+  .fancy-card.three{
+     background-image: url("EA_Sports logo.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     border: 5px solid gray;
+  }
+  .fancy-card.four{
+     background-image: url("rockstar.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     border: 5px solid gray;
+
+  }
+  .fancy-card.five{
+     background-image: url("epic_games.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     border: 5px solid gray;
+  }
+  .fancy-card.six{
+     background-image: url("Activision_Blizzard.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     border: 5px solid gray;
+  }
+  /*.space{
+    position: relative; left: 20%;
+  }*/
+  .fancy-card .bg-overlay1{
+     /*background: rgba(0,0,0,0.25);*/
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      transition: all 200ms linear;
+  }
+  .fancy-card .bg-overlay2{
+     /*background: rgba(0,0,0,0.25);*/
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      transition: all 200ms linear;
+  }
+  .fancy-card .bg-overlay3{
+     /*background: rgba(0,0,0,0.25);*/
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      transition: all 200ms linear;
+  }
+  .fancy-card .bg-overlay4{
+     /*background: rgba(0,0,0,0.25);*/
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      transition: all 200ms linear;
+  }
+  .fancy-card .bg-overlay5{
+     /*background: rgba(0,0,0,0.25);*/
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      transition: all 200ms linear;
+  }
+  .fancy-card .bg-overlay6{
+     /*background: rgba(0,0,0,0.25);*/
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      transition: all 200ms linear;
+  }
+  .fancy-card .tent{
+    padding: 20px 40px;
+    color: #fff;
+    text-align: left;
+    font-size: 17.5px;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: inline;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+  }
+  .fancy-card .tent .primary{
+    text-transform: uppercase;
+    width: 100%;
+    transition: all 250ms ease-out 200ms;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 1px);
+  }
+  .fancy-card .tent .secondary{
+    position: absolute;
+    opacity: 0;
+    left: 0px;
+    transform: translate3d(0px, 30px, 1px);
+    transition: all 200ms linear 0ms;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .fancy-card .button{
+    border: solid 1px ;
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 2px;
+    margin: 12px auto;
+  }
+
+
+  /*horizontal border elements (top & bottom)*/
+  .fancy-card .v-border{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  .fancy-card .v-border:before,
+  .fancy-card .v-border:after{
+    width: 0%;
+    height: 1px;
+    left: 50%;
+    transition: all 250ms ease-out;
+    background: #fff;
+  }
+  .fancy-card .v-border:before{
+    content: '';
+    top: 10%;
+    position: absolute;
+  }
+  .fancy-card .v-border:after{
+    content: '';
+    bottom: 10%;
+    position: absolute;
+  }
+
+  /*horizontal elements (left & right)*/
+  .fancy-card .h-border{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  .fancy-card .h-border:before,
+  .fancy-card .h-border:after{
+    height: 0%;
+    top: 50%;
+    width: 1px;
+    transition: all 250ms ease-out;
+    background: #fff;
+  }
+  .fancy-card .h-border:before{
+    content: '';
+    left: 10%;
+    height: 0%;
+    position: absolute;
+  }
+  .fancy-card .h-border:after{
+    content: '';
+    right: 10%;
+    position: absolute;
+  }
+
+
+  /*hover states for interactivity*/
+  .fancy-card:active .v-border:before,
+  .fancy-card:active .v-border:after,
+  .fancy-card:hover .v-border:before,
+  .fancy-card:hover .v-border:after{
+    width: 90%;
+    left: 5%;
+  }
+  .fancy-card:active .h-border:before,
+  .fancy-card:active .h-border:after,
+  .fancy-card:hover .h-border:before,
+  .fancy-card:hover .h-border:after{
+    height: 90%;
+    top: 5%;
+  }
+
+  /*hovering over card, shadow effect*/
+  .fancy-card:active,
+  .fancy-card:hover{
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+  }
+  /*hovering over card, adjust primary element*/
+  .fancy-card:active .tent .primary,
+  .fancy-card:hover .tent .primary{
+    opacity: 0;
+    transform: translate3d(0px, 20px, 1px);
+    transition: all 200ms linear 0ms;
+  }
+  /*hoverijng over card, adjust secondary element*/
+  .fancy-card:active .tent .secondary,
+  .fancy-card:hover .tent .secondary{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 1px);
+    transition: all 200ms linear 200ms;
+  }
+
+  /*hovering over card, adjust background overlay*/
+  .fancy-card:active .bg-overlay1,
+  .fancy-card:hover .bg-overlay1{
+    background: rgb(237, 178, 9);
+  }
+  .fancy-card:active .bg-overlay2,
+  .fancy-card:hover .bg-overlay2{
+    background: rgb(255,0,0);
+  }
+  .fancy-card:active .bg-overlay3,
+  .fancy-card:hover .bg-overlay3{
+    background:rgb(0, 0, 0);
+  }
+  .fancy-card:active .bg-overlay4,
+  .fancy-card:hover .bg-overlay4{
+    background: rgb(255, 165, 0);
+  }
+  .fancy-card:active .bg-overlay5,
+  .fancy-card:hover .bg-overlay5{
+    background: rgb(164, 164, 164);
+  }
+  .fancy-card:active .bg-overlay6,
+  .fancy-card:hover .bg-overlay6{
+    background: rgb(37, 96, 170);
+  }
+
+
+
+  /*medium and large profiles*/
+  @media screen and (min-width: 768px){
+
+    .fancy-card{
+      width: 30%;
+      margin: 0% 1.66% 3.33% 1.66%;
+    }
+
+  }
+
+  #scrolltotop{
+    padding-left: 95%;
+    color: #2FAE77;
+
+  }
+footer  {
+  font-size: 1.3rem;
+  color: white;
+  text-align: left;
+}
